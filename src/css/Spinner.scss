@@ -1,0 +1,25 @@
+.Spinner {
+  width : 50rem;
+  height: 50rem;
+
+  max-width: 520px;
+  max-height: 520px;
+
+  margin: 7rem;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Spinner {
+    animation: Spinner-spin infinite 1.4s linear;
+  }
+}
+
+@keyframes Spinner-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
