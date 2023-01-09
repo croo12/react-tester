@@ -1,13 +1,14 @@
 .input-box {
   position: relative;
   display: inline-block;
-  margin: 30px 10px;
+  margin: 1.7rem 0.7rem;
 
   .input {
     // As suggested by https://twitter.com/dbox/status/365888496486985728
     display: inline-block;
-    width: 215px;
-    padding: 10px 0 10px 15px;
+    width: 13.5rem;
+    height: 1.3rem;
+    padding: 0.72rem 0 0.8rem 1rem;
     font-family: "Open Sans", sans;
     font-weight: 400;
     color: #377D6A;
@@ -67,7 +68,7 @@
   }
   + label {
     color: #fff;
-    text-shadow: 0 0.1rem 0 rgba(19,74,70,.4);
+    text-shadow: 0 0.01rem 0 rgba(19,74,70,.4);
     background: rgba(122,184,147,1);
     transform: translateY(-2rem);
     
