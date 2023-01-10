@@ -11,7 +11,7 @@ import MediaRecorderExample from "../components/MediaRecorder";
 import CommonButton from "../UI/Button";
 
 const promise = new Promise((resolve, reject) => {
-  if(Math.random > 0.5)
+  if(Math.random() > 0.5)
     setTimeout(() => resolve(), 3000);
   else
     setTimeout(() => reject(), 3000);

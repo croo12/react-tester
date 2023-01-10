@@ -1,15 +1,17 @@
 import React from "react";
-import '../css/Input.scss';
+import styles from '../css/Input.module.scss';
 
 const Input = (props) => {
 
+  console.log(styles);
+
   return (
     <div
-      className={ `input-box 
-                   ${props.isValid === false ? 'invalid' : ''}`}
+      className={ styles.inputBox + " " +
+                  `${props.isValid === false ? 'invalid' : ''}`}
     >
       <input 
-        className="input" 
+        className={styles.input}
         id={props.id}
         type={props.type}
         placeholder={props.placeholder} 

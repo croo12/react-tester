@@ -3,7 +3,7 @@ const Card = (props) => {
 
   return (
     <div
-      class={"option" (activate && 'activate')}
+      class={"option"(activate && "activate")}
       onClick="morp(idx + 1, routine.r_id)"
       // style={'background-image': 'url(' + IMG_URL + routine.v_id + '.png)',}
     >
@@ -18,7 +18,7 @@ const Card = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Card;
