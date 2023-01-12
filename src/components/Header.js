@@ -1,13 +1,20 @@
-import { Link } from "react-router-dom";
-import '../css/H.Header.scss'
+import { NavLink } from "react-router-dom";
+import "../css/H.Header.scss";
 
-const Header = ({isVertical}) => {
+const Header = ({ isVertical }) => {
   return (
     <div className={isVertical ? "v-header" : "h-header"}>
-      <Link to="/">홈</Link>
-      <Link to="/research">연구실로</Link>
+      <NavLink
+        className={(navData) => {
+          console.log(navData);
+        }}
+        to="/"
+      >
+        홈
+      </NavLink>
+      <NavLink to="/research">연구실로</NavLink>
     </div>
-  )
-}
+  );
+};
 
 export default Header;
