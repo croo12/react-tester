@@ -37,7 +37,7 @@
     getUserMedia로 생성한 놈은 로컬 다른 애들은 비로컬이라고 부른다고 한다. 
     유명한 해외파 MediaStream은 바로 WebRTC의 RTCPeerConnection이다.
 
-    navigator.mediaDevices.getUserMedia( Object obj ) 
+    navigator.mediaDevices.getUserMedia( Object obj )
     =>  내 장치의 미디어를 가져오는 함수
       객체 안에 넣은 값에 따라 오디오, 비디오, 마이크에 접근 가능
       오디오 혹은 비디오 중 하나는 반드시 요청해야함
@@ -49,3 +49,6 @@
     이렇게 얻은 정보를 video 태그로 웹에 띄워봤다.
 
     로컬로 얻은 정보가 아니라 WEB RTC를 통해 넘어온 정보를 띄우면 그걸로 끝
+
+## 아니 openvidu에 연결하기 절반 성공하기도 개어렵네
+

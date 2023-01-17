@@ -34,6 +34,7 @@ const MediaRecorderExample = () => {
 
     MediaStream 소개서 
     0개 이상의 MediaStreamTrack 객체로 구성되어 있다.
+    ㄴ MediaStreamTrack은 누구임
     
 
     navigator.mediaDevices.getUserMedia( Object obj ) 
